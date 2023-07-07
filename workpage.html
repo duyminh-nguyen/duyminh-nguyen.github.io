@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Minhinator's AMV Portfolio</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom, #440077, #000044);
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .description{
+      font-family: Arial, sans-serif;
+      color: white;
+      font-size: small;
+    }
+
+    .navbar {
+      background-color: #2c2c2c;
+      padding: 10px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+    }
+
+    .navbar .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .navbar .logo img {
+      width: 30px;
+      margin-right: 10px;
+    }
+
+    .navbar .logo .title {
+      font-size: 20px;
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    .navbar .home-button {
+      font-size: 16px;
+      color: #ffffff;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .box {
+      width: 195px;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.8);
+      border-radius: 10px;
+      padding: 10px;
+      transition: transform 0.3s;
+    }
+
+    .thumbnail {
+      width: 180px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .box:hover {
+      transform: scale(1.1);
+    }
+
+    .title {
+      color: white;
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .work-title {
+      color: white;
+      font-size: 24px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .duration {
+      color: gray;
+      font-size: 16px;
+    }
+
+    .work-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #333333;
+      color: #ffffff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .category-filter {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .category-filter button {
+      background-color: #333333;
+      color: #ffffff;
+      padding: 5px 10px;
+      margin: 5px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">
+      <a href="https://www.instagram.com/minhinator/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/800px-Instagram-Icon.png" alt="Instagram" width="24"></a>
+      <div class="title">Minhinator</div>
+    </div>
+    <a class="home-button" href="homepage.html">Home</a>
+    <a class="home-button" href="contactpage.html">Contact</a>
+    <a class="home-button" href="newsletterpage.html">Newsletter</a>
+  </nav>
+
+  <div class="container">
+  <div class="category-filter">
+    <button class="filter-button active" data-category="favorites">Favorites</button>
+    <button class="filter-button" data-category="shorts">Shorts</button>
+    <button class="filter-button" data-category="works">Works</button>
+  </div>
+  </div>
+
+  <br>
+
+  <div class="work-title">Minh's Favorite Shorts</div>
+  <div class="container">
+    <div class="box favorites">
+      <a href="https://www.youtube.com/shorts/swuB-tYMAW8"><img class="thumbnail" src="https://i.ytimg.com/vi/swuB-tYMAW8/hq720_2.jpg?sqp=-oaymwEdCNAFENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLAC0S3pNT9zIRxaGg4MuFSY6kqqow" alt="Thumbnail 1">
+      <div class="title">Kizumonogatari</div>
+      <div class="description">A Kizumonogatari edit that took me 1 year to make. I tried using a lot of shapes.</div>
+    </div>
+
+    <div class="box favorites">
+      <a href="https://www.youtube.com/shorts/LNGOoXov3bY"><img class="thumbnail" src="https://i.ytimg.com/vi/LNGOoXov3bY/hq2.jpg?sqp=-oaymwEdCOgCEOgCSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLD5sduO8aoCYovXHZcz5oA75qnEgg" alt="Thumbnail 4">
+      <div class="title">10 Blood</div>
+      <div class="description">My first time using the 3D Camera. I tried giving the edit a relaxing vibe.</div>
+    </div>
+
+    <div class="box favorites">
+      <a href="https://www.youtube.com/shorts/MVi4Xw7oL64"><img class="thumbnail" src="https://i.ytimg.com/vi/MVi4Xw7oL64/hq720_2.jpg?sqp=-oaymwEdCNAFENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLAT_4BozNtmobxXU1s8zIo8S7F8CA" alt="Thumbnail 6">
+      <div class="title">ICrashedTheHonda</div>
+      <div class="description">This edit was meant for me to practice my scales but liked the song a lot so I put in a lot effort.</div>
+    </div>
+
+    <div class="box favorites">
+      <a href="https://www.youtube.com/shorts/m5WCySC-cAs"><img class="thumbnail" src="https://i.ytimg.com/vi/m5WCySC-cAs/hq720_2.jpg?sqp=-oaymwEdCNAFENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLCa-53wzL_IN_63x5hRyvoqbfiVpw" alt="Thumbnail 7">
+      <div class="title">Not Around</div>
+      <div class="description">I combined the particle effect with masking so that the particles would hover behind the character.</div>
+    </div>
+
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+  <div class="work-title">Shorts</div>
+  <div class="container">
+
+    <div class="box shorts">
+      <a href="https://www.youtube.com/shorts/Y5f6Cx7iZx0"><img class="thumbnail" src="https://i.ytimg.com/vi/Y5f6Cx7iZx0/hq720_2.jpg?sqp=-oaymwEdCNAFENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLAXO5v1IUuDRscdP7bwEPYbmOhiuA" alt="Anbu" /></a>
+      <div class="title">Anbu</div>
+      <div class="description">Here I practiced my scales after not editing for a really long time.</div>
+    </div>
+
+    <div class="box shorts">
+      <a href="https://www.youtube.com/shorts/t5b-kWQMFlY"><img class="thumbnail" src="https://i.ytimg.com/vi/t5b-kWQMFlY/hq720_2.jpg?sqp=-oaymwEdCNAFENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLAkHt9GnbqV9gfvb41obZqFGJBrKg" alt="Backwood Shawty" /></a>
+      <div class="title">Backwood Shawty</div>
+      <div class="description">A quick edit i made for fun because i got bored.</div>
+    </div>
+
+    <div class="box shorts">
+      <a href="https://www.youtube.com/shorts/_SbM2-nyVAw"><img class="thumbnail" src="https://i.ytimg.com/vi/_SbM2-nyVAw/hq720_2.jpg?sqp=-oaymwEdCNAFENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLBinj_bTL5GCSy2cvZZve8dVFdrtQ" alt="Dark Garden" /></a>
+      <div class="title">Dark Garden</div>
+      <div class="description">My first time trying the "edgy" editing style. A lot of scales.</div>
+    </div>
+
+    <div class="box shorts">
+      <a href="https://www.youtube.com/shorts/p4pd9MrMLLY"><img class="thumbnail" src="https://i.ytimg.com/vi/p4pd9MrMLLY/hq720_2.jpg?sqp=-oaymwEdCNAFENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLDHctNbJGshemEFrJYnEsJd72AYXw" alt="Let Go" /></a>
+      <div class="title">Let Go</div>
+      <div class="description">Another quick edit that went viral on youtube. 0 effort.</div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+    <div class="work-title">Minh's Favorite Works</div>
+
+  <div class="container">
+    <div class="box">
+      <a href="https://www.youtube.com/watch?v=UV85w4qr8bw"><img class="thumbnail" src="https://i.ytimg.com/vi/UV85w4qr8bw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCCKo6Cc1Ku9WRrfcsj_fgamexKEQ" alt="Kakegurui" /></a>
+      <div class="title">Kakegurui</div>
+      <div class="duration">0:06</div>
+      <div class="description">This is my Part I made for a Multi-Editor-Project Edit. I tried making each transition as smooth as possible. </div>
+    </div>
+
+    <div class="box favorites">
+      <a href="https://www.youtube.com/watch?v=WzmXq-VxH9w"><img class="thumbnail" src="https://i.ytimg.com/vi/WzmXq-VxH9w/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDoY2hvIwDbBaXaVhZnOtwM4ki2Cw" alt="TIME 2 BRUTALIZE" /></a>
+      <div class="title">TIME 2 BRUTALIZE</div>
+      <div class="duration">0:07</div>
+      <div class="description">Another Edit where I tried the "edgy" editing style. The scales are top notch.</div>
+    </div>
+
+    <div class="box favorites">
+      <a href="https://www.youtube.com/watch?v=wsnZHDt0B6k"><img class="thumbnail" src="https://i.ytimg.com/vi/wsnZHDt0B6k/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCKSH43Rz3XHbkEtVfek9fX-j7ocQ" alt="Drama Reworked" /></a>
+      <div class="title">Drama Reworked</div>
+      <div class="duration">0:18</div>
+      <div class="description">Reworked this edit because the original edit was sloppily made because i got bored and wanted to finish the edit.</div>
+    </div>
+
+    <div class="box favorites">
+      <a href="https://www.youtube.com/watch?v=WynO7U7Hd9g"><img class="thumbnail" src="https://i.ytimg.com/vi/WynO7U7Hd9g/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDRFteOu_m5EVgDpaRnDRjrMcDeCg" alt="Just Somebody That I Used To Know" /></a>
+      <div class="title">Just Somebody That I Used To Know</div>
+      <div class="duration">0:14</div>
+      <div class="description">A remake of an edit I saw on Instagram. Remade it because i loved the original one.</div>
+    </div>
+
+    <div class="box favorites">
+      <a href="https://www.youtube.com/watch?v=SXkPDLt2OWA"><img class="thumbnail" src="https://i.ytimg.com/vi/SXkPDLt2OWA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD7aIZ37AULf1euTt9GF5fK5mUMVA" alt="Die With Me" /></a>
+      <div class="title">Die With Me</div>
+      <div class="duration">0:11</div>
+      <div class="description">Quick Edgy edit i made when i couldn't come up with new ideas.</div>
+    </div>
+
+    <div class="box favorites">
+      <a href="https://www.youtube.com/watch?v=fJ44JA_50Qo"><img class="thumbnail" src="https://i.ytimg.com/vi/fJ44JA_50Qo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDJEIxjvZkJ2JBH-1YkrjThpgxxSA" alt="Nuts" /></a>
+      <div class="title">Nuts</div>
+      <div class="duration">0:11</div>
+      <div class="description">I like this edit because it's sad roflll
+      </div>
+    </div>
+    
+    <div class="box favorites">
+      <a href="https://www.youtube.com/watch?v=migjwhFy7E4"><img class="thumbnail" src="https://i.ytimg.com/vi/migjwhFy7E4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDFY7Tm2ppjHBG9vdOwBMyGEgBwgA" alt="Stan" /></a>
+      <div class="title">Stan</div>
+      <div class="duration">0:19</div>
+      <div class="description">My favorite song combined with one of my favorite anime scenes to edit. This was my first ever edit that blew up on Instagram</div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+    <div class="work-title">Works</div>
+
+  <div class="container">
+    <div class="box works">
+      <a href="https://www.youtube.com/watch?v=mj8liLkwKoU"><img class="thumbnail" src="https://i.ytimg.com/vi/mj8liLkwKoU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDfdddKMsrEbJTUpCz22_yx0qXmTA" alt="TryToStayInTheFrameThisTime" /></a>
+      <div class="title">Try To Stay In The Frame This Time</div>
+      <div class="duration">0:13</div>
+      <div class="description">I don't like this edit because the scales are really stiff and the whole edit itself lacks movement.</div>
+    </div>
+
+    <div class="box works">
+      <a href="https://www.youtube.com/watch?v=CRU4zOIPmQo"><img class="thumbnail" src="https://i.ytimg.com/vi/CRU4zOIPmQo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCnesPZAvkSNX2xPTwMH5b-guoB3A" alt="Long Live." /></a>
+      <div class="title">Long Live.</div>
+      <div class="duration">0:22</div>
+      <div class="description">I practiced my Twixtor here because i always struggled getting smooth Twixtor in a lot of my edits.</div>
+    </div>
+
+    <div class="box works">
+      <a href="https://www.youtube.com/watch?v=bs_wd56P-pI"><img class="thumbnail" src="https://i.ytimg.com/vi/bs_wd56P-pI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD5sRYRhE5sH1UZUGoVY4hjhnUejw" alt="Drama" /></a>
+      <div class="title">Drama</div>
+      <div class="duration">0:18</div>
+      <div class="description">My friend suggested me this song and i liked it a lot so i decided to make an edit with this song.</div>
+    </div>
+
+    <div class="box works">
+      <a href="https://www.youtube.com/watch?v=epnmi2JefSs"><img class="thumbnail" src="https://i.ytimg.com/vi/epnmi2JefSs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD5tG5uEoKgp7CAWjA1o83D5ViNHw" alt="Z0NING THR0UGH SECTOR 6IX" /></a>
+      <div class="title">Z0NING THR0UGH SECTOR 6IX</div>
+      <div class="duration">0:11</div>
+      <div class="description">This is yet another remake from an edit i saw on Instagram. </div>
+    </div>
+
+    <div class="box works">
+      <a href="https://www.youtube.com/watch?v=vA2iZtXPsfw"><img class="thumbnail" src="https://i.ytimg.com/vi/vA2iZtXPsfw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA0VZC9-zUWvy_AviFcMNRaZzRvRg" alt="44 More" /></a>
+      <div class="title">44 More</div>
+      <div class="duration">0:17</div>
+      <div class="description">I used new editing techniques in this edit. I wanted to be as creative as possible but kinda gave up on the end.</div>
+    </div>
+    
+    <div class="box works">
+      <a href="https://www.youtube.com/watch?v=SO452tchsDw"><img class="thumbnail" src="https://i.ytimg.com/vi/SO452tchsDw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDT6qvEbQPAu_E_5DPuLa1Bu-wbug" alt="6 Shots" /></a>
+      <div class="title">6 Shots</div>
+      <div class="duration">0:12</div>
+      <div class="description">This is my first edgy edit I've ever made. If you compare it to the more recent edgy edits i made, you can see how my scales have improved </div>
+    </div>
+    
+    <div class="box works">
+      <a href="https://www.youtube.com/watch?v=VSzxuHbm0N0"><img class="thumbnail" src="https://i.ytimg.com/vi/VSzxuHbm0N0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDiKYDOLCuT7iXhH6DRY-IkSggfWg" alt="Metadata" /></a>
+      <div class="title">Metadata</div>
+      <div class="duration">0:18</div>
+      <div class="description">My 3rd Adobe After Effects edit. I didn't have much experience so yet again i used simple transitions.</div>
+    </div>
+    
+    <div class="box works">
+      <a href="https://www.youtube.com/watch?v=QQHMZ4MOX4g"><img class="thumbnail" src="https://i.ytimg.com/vi/QQHMZ4MOX4g/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCHfEBRmk17HMJ3l2zqkq_FwdbS9Q" alt="Playa Shit" /></a>
+      <div class="title">Playa Shit</div>
+      <div class="duration">0:07</div>
+      <div class="description">My first remake of an edit. I didn't know how to change the background color using a plugin so i masked out every background frame and wasted 20+ hours.</div>
+    </div>
+
+    <div class="box works">
+      <a href="https://www.youtube.com/watch?v=gzzawVihhMU"><img class="thumbnail" src="https://i.ytimg.com/vi/gzzawVihhMU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCAej92ksbqatSKzyoOHrkPkAnJ1g" alt="What Did You Say?" /></a>
+      <div class="title">What Did You Say?</div>
+      <div class="duration">0:18</div>
+      <div class="description">My first Adobe After Effects edit. I tried using simple transtions such as postions, scales and shakes. </div>
+    </div>
+    
+  </div>
+  <div class="container"> 
+
+
+    <script>
+      const filterButtons = document.querySelectorAll('.filter-button');
+  
+      filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          const category = button.dataset.category;
+          filterItems(category);
+          setActiveButton(button);
+        });
+      });
+  
+      function filterItems(category) {
+        const items = document.querySelectorAll('.box');
+  
+        items.forEach(item => {
+          if (category === 'all' || item.classList.contains(category)) {
+            item.style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      }
+  
+      function setActiveButton(button) {
+        filterButtons.forEach(button => button.classList.remove('active'));
+        button.classList.add('active');
+      }
+    </script>
+  
+</body>
+</html>
